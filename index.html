@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>GoShop</title>
+  </head>
+  <body>
+    <button class="add-btn add-to-cart">
+      <i class="fa-solid fa-cart-shopping fa-xl"></i
+      ><span style="margin-left: 10px" id="cartCount">0</span>
+    </button>
+    <!-- navigation bar starts here -->
+    <div class="head_line">
+      <marquee>This text will scroll from right to left</marquee>
+    </div>
+    <header>
+      <div class="navbars">
+        <div class="logo">
+          <a href="" class="logo-img"
+            ><img src="img/logo.png" width="50px" alt=""
+          /></a>
+          <p>GoShop</p>
+        </div>
+        <ul class="nav-link">
+          <li><a href="">Home</a></li>
+          <li><a href="productPage.html">Products</a></li>
+          <li><a href="#ch2">New Arrivals</a></li>
+          <li><a href="">About us</a></li>
+          <li><a href="">Contact us</a></li>
+        </ul>
+        <div class="action-btn">
+          <a href="" class="sarch-btn"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+          <a href="" class="user-btn"><i class="fa-regular fa-user"></i></a>
+        </div>
+        <div class="toggle-btn">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </div>
+      <div class="dropdown-menu">
+        <li><a href="">Home</a></li>
+        <li><a href="productPage.html">Products</a></li>
+        <ul class="dropdown-products">
+          <div></div>
+        </ul>
+        <li><a href="#ch2">New Arrivals</a></li>
+        <li><a href="">About us</a></li>
+        <li><a href="">Contact us</a></li>
+        <div class="action-btn-2">
+          <li>
+            <a href=""
+              ><i class="fa-solid fa-magnifying-glass"></i>Search Items</a
+            >
+          </li>
+          <li>
+            <a href=""><i class="fa-regular fa-user"></i>Account</a>
+          </li>
+          <li>
+            <a href=""><i class="fa-solid fa-cart-shopping"></i>Card Item</a>
+          </li>
+        </div>
+      </div>
+    </header>
+
+    <!--navigation ends -->
+
+    <!--welcome page-->
+    <div class="welcome-section">
+      <div class="container">
+        <div class="row">
+          <div class="col2">
+            <img src="img/watch.png" width="400px" alt="" />
+          </div>
+          <div class="col2">
+            <h2 class="welcome-text">Lorem ipsum dolor sit amet.</h2>
+            <p class="welcome-text">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit
+              consectetur minima officiis aperiam corrupti, delectus nulla cum
+              voluptas dolorem a similique beatae eos saepe, explicabo pariatur
+              voluptatum architecto quae adipisci. <br />
+              <button href="" class="welcome-btn" id="add-to-cart">
+                Add to card <i class="fa-solid fa-cart-shopping"></i>
+              </button>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--available page-->
+
+    <div class="available-section">
+      <div class="container">
+        <h3 style="text-align: center; margin: 30px auto">
+          Available on GoShop
+        </h3>
+        <div class="row row-available">
+          <div class="col3">
+            <img src="img/img1.jpg" width="400px" alt="" />
+            <a href="" class="view-more-btn">View More</a>
+          </div>
+          <div class="col3">
+            <img src="img/img2.jpg" width="400px" alt="" />
+            <a href="" class="view-more-btn">View More</a>
+          </div>
+          <div class="col3">
+            <img src="img/img3.jpg" width="400px" alt="" />
+            <a href="" class="view-more-btn">View More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--best seller-->
+
+    <div class="best-seller">
+      <div class="container">
+        <h3 style="text-align: center; margin: 50px auto">
+          Our Best Seller Products
+        </h3>
+        <div class="row">
+          <div class="col4">
+            <img src="img/best-seller-1.jpg" alt="" />
+            <p>Bag</p>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star-half"></i></span>
+            <p>49.99$</p>
+            <button class="add-btn" id="add-to-cart">Add to card</button>
+          </div>
+          <div class="col4">
+            <img src="img/best-seller-2.jpg" alt="" />
+            <p>Headphone</p>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star-half"></i></span>
+            <p>49.99$</p>
+            <button class="add-btn" id="add-to-cart">Add to card</button>
+          </div>
+          <div class="col4">
+            <img src="img/best-seller-3.jpg" alt="" />
+            <p>Airpod</p>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <p>49.99$</p>
+            <button class="add-btn" id="add-to-cart">Add to card</button>
+          </div>
+          <div class="col4">
+            <img src="img/best-seller-4.jpg" alt="" />
+            <p>Waterproof Watch</p>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star-half"></i></span>
+            <p>49.99$</p>
+            <button class="add-btn" id="add-to-cart">Add to card</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col4">
+            <img src="img/best-seller-5.png" alt="" />
+            <p>Gaming Chair</p>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star-half"></i></span>
+            <p>49.99$</p>
+            <button class="add-btn" id="add-to-cart">Add to card</button>
+          </div>
+          <div class="col4">
+            <img src="img/best-seller-6.png" alt="" />
+            <p>GT Gaming Mouse</p>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star-half"></i></span>
+            <p>49.99$</p>
+            <button class="add-btn" id="add-to-cart">Add to card</button>
+          </div>
+          <div class="col4">
+            <img src="img/best-seller-7.png" alt="" />
+            <p>Go Pro 10</p>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <p>49.99$</p>
+            <button class="add-btn" id="add-to-cart">Add to card</button>
+          </div>
+          <div class="col4">
+            <img src="img/best-seller-8.png" alt="" />
+            <p>Bluetooth Speaker</p>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star"></i></span>
+            <span><i class="fa fa-star-half"></i></span>
+            <p>49.99$</p>
+            <button class="add-btn" id="add-to-cart">Add to card</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  New Arrival Page Starts here  -->
+
+    <div class="newArrival">
+      <div class="container">
+        <h2 class="newArrival-header" id="ch2">New Arrival Products</h2>
+        <div class="row newArrival-row">
+          <div class="col2 newArrival-col">
+            <img src="img/laptop.png" width="350px" alt="" />
+            <h2>Macbook Pro 2020</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              molestias culpa eos tempora iure dolorum nostrum vel, delectus
+              facere corporis aut. Labore sapiente laborum unde veritatis
+              tempora, commodi eaque numquam!
+            </p>
+            <p>Price : <del> 2000$ </del> 1500$</p>
+            <button class="add-btn">Buy Now</button>
+          </div>
+          <div class="col2 newArrival-col">
+            <img src="img/pc.png" width="350px" alt="" />
+            <h2>Macbook Pro 2020</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              molestias culpa eos tempora iure dolorum nostrum vel, delectus
+              facere corporis aut. Labore sapiente laborum unde veritatis
+              tempora, commodi eaque numquam!
+            </p>
+            <p>Price : <del> 2000$ </del> 1500$</p>
+            <button class="add-btn">Buy Now</button>
+          </div>
+         
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!--footer-->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h2>About Us</h2>
+          <p>We are a leading e-commerce platform providing a wide range of products to meet your needs. Our mission is to deliver quality products and excellent customer service.</p>
+        </div>
+        <div class="footer-section links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+        <div class="footer-section contact">
+          <h2>Contact Us</h2>
+          <ul>
+            <li><a href="mailto:support@ecommerce.com">support@ecommerce.com</a></li>
+            <li><a href="tel:+1234567890">+1 234 567 890</a></li>
+            <li><a href="#">123 E-commerce St, Online City</a></li>
+          </ul>
+        </div>
+        <div class="footer-section social">
+          <h2>Follow Us</h2>
+          <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 E-commerce. All Rights Reserved.</p>
+      </div>
+    </footer>
+  
+    <script src="script.js"></script>
+  </body>
+</html>
